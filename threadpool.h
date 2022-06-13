@@ -17,7 +17,9 @@ namespace std
 #define  THREADPOOL_MAX_NUM 16
 //#define  THREADPOOL_AUTO_GROW
 
-//线程池,可以提交变参函数或拉姆达表达式的匿名函数执行,可以获取执行返回值
+//线程池,可以提交变参函数或
+
+//拉姆达表达式的匿名函数执行,可以获取执行返回值
 //不直接支持类成员函数, 支持类静态成员函数或全局函数,Opteron()函数等
 class threadpool
 {
